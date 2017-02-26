@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Android.Things", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUi", "SimpleUi\SimpleUi.csproj", "{A1A8D038-997C-4580-91B4-355089674093}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alarm", "Alarm\Alarm.csproj", "{38E62AEE-BCAC-443F-9052-39CBC2DAFD28}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,12 @@ Global
 		{A1A8D038-997C-4580-91B4-355089674093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A1A8D038-997C-4580-91B4-355089674093}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A1A8D038-997C-4580-91B4-355089674093}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{38E62AEE-BCAC-443F-9052-39CBC2DAFD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38E62AEE-BCAC-443F-9052-39CBC2DAFD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38E62AEE-BCAC-443F-9052-39CBC2DAFD28}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{38E62AEE-BCAC-443F-9052-39CBC2DAFD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38E62AEE-BCAC-443F-9052-39CBC2DAFD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38E62AEE-BCAC-443F-9052-39CBC2DAFD28}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
