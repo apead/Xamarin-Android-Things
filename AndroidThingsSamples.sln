@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlinkLed", "BlinkLed\BlinkLed.csproj", "{0FDF4E27-A97D-487B-AEB1-3D1DB722BB21}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Binding.Android.Things", "Binding.Android.Things\Binding.Android.Things.csproj", "{64F46FBF-D503-4B5E-8801-21DC0E38AADF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleUi", "SimpleUi\SimpleUi.csproj", "{A1A8D038-997C-4580-91B4-355089674093}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FDF4E27-A97D-487B-AEB1-3D1DB722BB21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FDF4E27-A97D-487B-AEB1-3D1DB722BB21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FDF4E27-A97D-487B-AEB1-3D1DB722BB21}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{0FDF4E27-A97D-487B-AEB1-3D1DB722BB21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FDF4E27-A97D-487B-AEB1-3D1DB722BB21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FDF4E27-A97D-487B-AEB1-3D1DB722BB21}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{64F46FBF-D503-4B5E-8801-21DC0E38AADF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64F46FBF-D503-4B5E-8801-21DC0E38AADF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64F46FBF-D503-4B5E-8801-21DC0E38AADF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64F46FBF-D503-4B5E-8801-21DC0E38AADF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A8D038-997C-4580-91B4-355089674093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1A8D038-997C-4580-91B4-355089674093}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1A8D038-997C-4580-91B4-355089674093}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A1A8D038-997C-4580-91B4-355089674093}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1A8D038-997C-4580-91B4-355089674093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1A8D038-997C-4580-91B4-355089674093}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
