@@ -1,5 +1,5 @@
 # Xamarin-Android-Things
-Xamarin Samples for Android Things
+Xamarin Samples for Android Things 0.41 Preview
 
 This repository is a collection of Android Things samples for Xamarin Developers
 
@@ -10,3 +10,4 @@ SimpleUI ->  A conversion of the Android Things sample.   This illustrates a UI 
 Alarm ->   Illustration of how GPIO callbacks work.   (http://explorationspace.co.za/2017/02/26/android-things-gpio-callbacks/)
 
 
+Please note these are experimental bindings.  The official Xamarin Nuget Package can be found here:  https://www.nuget.org/packages/Xamarin.Android.Things/
