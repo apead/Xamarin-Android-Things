@@ -1,8 +1,7 @@
 ﻿using Android.App;
-using Android.Widget;
 using Android.OS;
+using Android.Things.Pio;
 using Android.Util;
-using Com.Google.Android.Things.Pio;
 
 namespace Alarm
 {

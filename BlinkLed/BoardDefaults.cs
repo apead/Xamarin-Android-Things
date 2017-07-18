@@ -1,8 +1,6 @@
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using Android.OS;
-using Com.Google.Android.Things.Pio;
+using Android.Things.Pio;
 
 namespace BlinkLed
 {

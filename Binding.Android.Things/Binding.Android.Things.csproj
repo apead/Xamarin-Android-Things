@@ -12,9 +12,10 @@
     <RootNamespace>Binding.Android.Things</RootNamespace>
     <AssemblyName>Binding.Android.Things</AssemblyName>
     <FileAlignment>512</FileAlignment>
-    <AndroidUseLatestPlatformSdk>True</AndroidUseLatestPlatformSdk>
-    <TargetFrameworkVersion>v7.1</TargetFrameworkVersion>
+    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
+    <TargetFrameworkVersion>v7.0</TargetFrameworkVersion>
     <AndroidClassParser>jar2xml</AndroidClassParser>
+    <AndroidCodegenTarget>XamarinAndroid</AndroidCodegenTarget>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -50,8 +51,15 @@
     <TransformFile Include="Transforms\EnumFields.xml" />
     <TransformFile Include="Transforms\EnumMethods.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <EmbeddedJar Include="Jars\androidthings-0.2-devpreview.jar" />
+    <ItemGroup>
+    <!-- From: https://jcenter.bintray.com/com/google/android/things/androidthings/0.1-devpreview/:androidthings-0.1-devpreview.jar -->
+    <InputJar Include="Jars\androidthings-0.4.1-devpreview.jar">
+    </InputJar>
+    <!-- We *also* add androidthings-0.1-devpreview.jar as `@(EmbeddedReferenceJar)`
+        so that referencing projects will automatically reference - but not include! -
+        `androidthings-0.1-devpreview.jar` during compilation -->
+    <EmbeddedReferenceJar Include="Jars\androidthings-0.4.1-devpreview.jar">
+    </EmbeddedReferenceJar>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
